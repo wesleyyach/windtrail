@@ -4,6 +4,9 @@
 
 Unlike classic mouse trails that repeat cursor images, WindTrail generates a continuous curved ribbon whose width and lifetime respond to movement speed.
 
+## Preview
+
+![WindTrail demo](media/windtrail-demo.gif)
 
 ## Features
 
