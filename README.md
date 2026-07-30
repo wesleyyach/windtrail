@@ -4,9 +4,6 @@
 
 Unlike classic mouse trails that repeat cursor images, WindTrail generates a continuous curved ribbon whose width and lifetime respond to movement speed.
 
-![WindTrail in Plasma Desktop Effects](media/screenshots/desktop-effects.png)
-
-![WindTrail configuration panel](media/screenshots/settings.png)
 
 ## Features
 

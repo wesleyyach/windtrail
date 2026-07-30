@@ -4,11 +4,7 @@
 
 Diferente dos rastros clássicos que repetem imagens do cursor, o WindTrail cria uma fita curva contínua cuja largura e duração reagem à velocidade do movimento.
 
-![WindTrail nos Efeitos da Área de Trabalho](media/screenshots/desktop-effects.png)
-
-![Painel de configuração do WindTrail](media/screenshots/settings.png)
-
-## Recursos
+Recursos
 
 - Fita curva contínua, sem repetir imagens do cursor
 - Espessura e duração reagem à velocidade do mouse
