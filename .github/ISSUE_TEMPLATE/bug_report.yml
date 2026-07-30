@@ -1,0 +1,48 @@
+name: Bug report
+description: Report a reproducible WindTrail problem
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Enable WindTrail
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: verify
+    attributes:
+      label: Verification output
+      description: Paste the complete output of ./scripts/verify.sh
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU and driver
+    validations:
+      required: true
+  - type: input
+    id: monitors
+    attributes:
+      label: Monitor layout
+      placeholder: "Example: 3 displays, 1920x1080 + 4K + laptop panel"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: "journalctl --user -b --no-pager | grep -iE 'windtrail|proxyx_windtrail|kwin'"
+      render: shell

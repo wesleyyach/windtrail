@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support guide
+    url: https://github.com/wesleyyach/windtrail/blob/main/SUPPORT.md
+    about: Read the support checklist before opening an issue.

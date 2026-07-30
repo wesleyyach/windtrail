@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Id": "proxyx_windtrail",
+        "Name": "WindTrail — Animated Mouse Cursor Trail",
+        "Name[pt_BR]": "WindTrail — Rastro Animado do Cursor",
+        "Description": "A smooth, customizable wind-ribbon cursor trail for KDE Plasma and KWin Wayland",
+        "Description[pt_BR]": "Um rastro de cursor suave e personalizável em forma de fita de vento para KDE Plasma e KWin Wayland",
+        "Category": "Appearance",
+        "EnabledByDefault": false,
+        "Icon": "input-mouse",
+        "License": "GPL-3.0-or-later",
+        "Version": "1.0.0",
+        "Authors": [
+            {
+                "Name": "Wesley (ProxyX)"
+            }
+        ],
+        "Website": "https://github.com/wesleyyach/windtrail",
+        "BugReportUrl": "https://github.com/wesleyyach/windtrail/issues",
+        "Copyright": "Copyright 2026 Wesley (ProxyX)"
+    },
+    "X-KDE-ConfigModule": "kwin_proxyx_windtrail_config"
+}
