@@ -4,6 +4,10 @@
 
 Diferente dos rastros clássicos que repetem imagens do cursor, o WindTrail cria uma fita curva contínua cuja largura e duração reagem à velocidade do movimento.
 
+## Prévia
+
+![Demonstração do WindTrail](media/windtrail-demo.gif)
+
 Recursos
 
 - Fita curva contínua, sem repetir imagens do cursor
